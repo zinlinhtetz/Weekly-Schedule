@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Weekly Schedule</h1>
+        <div id="dateDisplay" class="date-display"></div>
+    </div>
+
+    <div class="week">
+        <div class="day" id="monday">
+            <h2>Monday</h2>
+            <div class="task-count">
+                <span>Total Tasks: <span id="monday-total">0</span></span>
+                <span>Completed: <span id="monday-completed">0</span></span>
+            </div>
+            <div class="tasks" id="monday-tasks"></div>
+            <div class="input-container">
+                <input type="text" class="task-input" id="monday-input" placeholder="Add a task">
+                <button class="add-btn" data-day="monday"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="day" id="tuesday">
+            <h2>Tuesday</h2>
+            <div class="task-count">
+                <span>Total Tasks: <span id="tuesday-total">0</span></span>
+                <span>Completed: <span id="tuesday-completed">0</span></span>
+            </div>
+            <div class="tasks" id="tuesday-tasks"></div>
+            <div class="input-container">
+                <input type="text" class="task-input" id="tuesday-input" placeholder="Add a task">
+                <button class="add-btn" data-day="tuesday"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="day" id="wednesday">
+            <h2>Wednesday</h2>
+            <div class="task-count">
+                <span>Total Tasks: <span id="wednesday-total">0</span></span>
+                <span>Completed: <span id="wednesday-completed">0</span></span>
+            </div>
+            <div class="tasks" id="wednesday-tasks"></div>
+            <div class="input-container">
+                <input type="text" class="task-input" id="wednesday-input" placeholder="Add a task">
+                <button class="add-btn" data-day="wednesday"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="day" id="thursday">
+            <h2>Thursday</h2>
+            <div class="task-count">
+                <span>Total Tasks: <span id="thursday-total">0</span></span>
+                <span>Completed: <span id="thursday-completed">0</span></span>
+            </div>
+            <div class="tasks" id="thursday-tasks"></div>
+            <div class="input-container">
+                <input type="text" class="task-input" id="thursday-input" placeholder="Add a task">
+                <button class="add-btn" data-day="thursday"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="day" id="friday">
+            <h2>Friday</h2>
+            <div class="task-count">
+                <span>Total Tasks: <span id="friday-total">0</span></span>
+                <span>Completed: <span id="friday-completed">0</span></span>
+            </div>
+            <div class="tasks" id="friday-tasks"></div>
+            <div class="input-container">
+                <input type="text" class="task-input" id="friday-input" placeholder="Add a task">
+                <button class="add-btn" data-day="friday"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="day" id="saturday">
+            <h2>Saturday</h2>
+            <div class="task-count">
+                <span>Total Tasks: <span id="saturday-total">0</span></span>
+                <span>Completed: <span id="saturday-completed">0</span></span>
+            </div>
+            <div class="tasks" id="saturday-tasks"></div>
+            <div class="input-container">
+                <input type="text" class="task-input" id="saturday-input" placeholder="Add a task">
+                <button class="add-btn" data-day="saturday"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="day" id="sunday">
+            <h2>Sunday</h2>
+            <div class="task-count">
+                <span>Total Tasks: <span id="sunday-total">0</span></span>
+                <span>Completed: <span id="sunday-completed">0</span></span>
+            </div>
+            <div class="tasks" id="sunday-tasks"></div>
+            <div class="input-container">
+                <input type="text" class="task-input" id="sunday-input" placeholder="Add a task">
+                <button class="add-btn" data-day="sunday"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
